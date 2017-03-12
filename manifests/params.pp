@@ -50,6 +50,8 @@ class fail2ban::params {
     }
     'RedHat': {
     }
+    'Archlinux': {
+    }
     default: {
       fail("${::operatingsystem} not supported.")
     }

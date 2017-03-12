@@ -55,6 +55,7 @@ class fail2ban::config {
         }
       }
     }
+    'Archlinux': {}
     default: {
       fail("${facts['os']['family']} not supported.")
     }
